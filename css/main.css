@@ -2,6 +2,36 @@
 main p{
   color: #ffffff;
 }
+.topanimetion{
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  height: 100%;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.slider{
+
+}
+.slick-img{
+
+}
+.slider img{
+  width: 100%;
+  min-height: 100vh;
+}
+@keyframes fdzm {
+  0% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.animation {
+  animation: fdzm 4s 0s forwards;
+}
 
 .maina{
   margin-top: 50px;
@@ -257,11 +287,8 @@ main p{
   }
   .mainaimg{
     width: 100%;
-    height: 40%;
+    height: 300px;
     background-size: 100%;
-  }
-  .mainaimgb{
-    width: 100%;
   }
   .mainapa{
     font-size: 28px;
@@ -287,7 +314,7 @@ main p{
   }
   .mainaimgb{
     width: 100%;
-    height: 40%;
+    height: 300px;
     background-size: 100%;
   }
   .mainbitem{
